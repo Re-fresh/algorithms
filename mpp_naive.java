@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class mpp_naive {
 
@@ -20,22 +19,4 @@ public class mpp_naive {
 		System.out.println(x + " naive " + y);
 		return result;
 	}
-/*
-	public static void main(String args[]) {
-
-		// Input
-		Scanner inp = new Scanner(System.in);
-		int N;
-		N = inp.nextInt();
-		long[] arr = new long[N];
-		for (int i = 0; i < N; i++) {
-			arr[i] = inp.nextInt();
-		}
-		inp.close();
-
-		long result = mpp(arr);
-		System.out.println(result);
-
-	}
-	*/
 }
